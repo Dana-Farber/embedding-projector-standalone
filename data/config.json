@@ -1,0 +1,21 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Specimen Data",
+      "tensorShape": [10000, 200],
+      "tensorPath": "data/tensors.bytes",
+      "metadataPath": "data/metadata.tsv"
+    },
+    {
+      "tensorName": "Mnist with images",
+      "tensorShape": [10000, 784],
+      "tensorPath": "data/mnist_10k_784d_tensors.bytes",
+      "metadataPath": "data/mnist_10k_784d_labels.tsv",
+      "sprite": {
+        "imagePath": "data/mnist_10k_sprite.png",
+        "singleImageDim": [28, 28]
+      }
+    }
+  ],
+  "modelCheckpointPath": "Demo datasets"
+}
